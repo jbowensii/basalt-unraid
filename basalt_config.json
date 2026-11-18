@@ -1,7 +1,15 @@
 {
+  "version": 2,
+  "models": [
+    {
+      "model": "/models/Qwen3.8-FN-Uncensored-NVFP4-DQ6_K.basalt",
+      "gpu": "0,1",
+      "max-context": 200000,
+      "kv": "int8",
+      "fit-max-tokens": true
+    }
+  ],
   "server": {
     "port": 8080
-  },
-  "models_dir": "/models",
-  "cache_dir": "/data/.cache/basalt"
+  }
 }

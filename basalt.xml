@@ -3,8 +3,8 @@
   <Name>basalt</Name>
   <Repository>ghcr.io/jbowensii/basalt:latest</Repository>
   <Registry>https://github.com/jbowensii/basalt-unraid/pkgs/container/basalt</Registry>
-  <Network>bridge</Network>
-  <MyIP/>
+  <Network>br0</Network>
+  <MyIP>10.47.40.129</MyIP>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/jesdga95/basalt/issues</Support>
